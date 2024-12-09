@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+* {
+  font-family: "Josefin Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  min-height: 100vh;
+  background: #2f3542;
+  color: #dfe4ea;
+}
+body h1 {
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+body h1 span, body h1 i {
+  color: #ffa502;
+}
+body h3 {
+  color: #ffa502;
+  font-size: 1.5rem;
+}
+body .container .choices {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem auto 3rem;
+  width: 500px;
+}
+body .container .choices button {
+  flex: 1 0 45%;
+  width: 200px;
+  height: 80px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin: 0.4rem;
+  outline: none;
+  background: #dfe4ea;
+  user-select: none;
+  font-weight: 600;
+}
+body .container .choices button:hover {
+  background: #ffa502;
+  transition: 0.5s;
+}
+body .container .choices button:active {
+  transform: scale(0.9);
+  transition: transform 0.1s;
+}
+body .container .choices button p {
+  font-size: 1.3rem;
+}
+body #progress {
+  font-size: 1.3rem;
+  color: #ffa502;
+}
+
+.modal {
+    background:azure;
+    padding: 1em;
+    justify-content: center;
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+   margin:auto;
+   width: 50%; 
+   height: 75%; 
+   justify-content: center; 
+   align-items: center; 
+   border-radius: 5% / 80%;
+   font-size: 1.25em;
+}
+
+.megapng {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal::backdrop {
+    background: rgba(93, 188, 251, 0.5);
+}
+
+.dialog-content {
+  background-color: white; 
+  padding: 20px; 
+  border-radius: 5px; 
+  text-align: center; 
+}
+/*# sourceMappingURL=style.css.map */
